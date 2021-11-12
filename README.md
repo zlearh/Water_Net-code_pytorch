@@ -2,8 +2,10 @@
 
 This is the code of the implementation of the underwater image enhancement network (Water-Net) described in "Chongyi Li, Chunle Guo, Wenqi Ren, Runmin Cong, Junhui Hou, Sam Kwong, Dacheng Tao , IEEE TIP 2019"
 
-# Requirement Pytorch >= 1.4
-Cuda  8.0, and Matlab.
+# Requirement 
+
+Pytorch >= 1.4
+Cuda  8.0, and Matlab
 torchvision >= 1.1.0
 random
 numpy
