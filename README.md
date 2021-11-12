@@ -18,7 +18,7 @@ Put the inputs to corresponding folders (raw images to "test_real", WB images to
 
 vgg weight https://pan.baidu.com/s/1YeayV3xuwNWjXw6QX1tkew code：8cfn
 
-2.Python main_.py  （Modification has its own file address）
+2.Python main_.py
 
 3.Python main_test.py
 
