@@ -3,8 +3,11 @@
 This is the code of the implementation of the underwater image enhancement network (Water-Net) described in "Chongyi Li, Chunle Guo, Wenqi Ren, Runmin Cong, Junhui Hou, Sam Kwong, Dacheng Tao , IEEE TIP 2019"
 
 #Requirement
-Pytorch 1.4, Cuda 8.0, and Matlab. The missed vgg.py has been added. The requirement.txt has been added.
-torchvision
+Pytorch >= 1.4
+Cuda  8.0, and Matlab.
+torchvision >= 1.1.0
+random
+numpy
 
 # Usage
 
@@ -12,6 +15,8 @@ torchvision
 
 1.Generate the preprocessing data by using the "generate_test_data.m" in folder named generate_test_data (Also, there is a modified code that includes WB, HE and GC in Python code without a need for preprocessing by MATLAB.  You can find the modified code in folder named testing_code_by_Branimir Ambrekovic. More details can be found in B's codes.)
 Put the inputs to corresponding folders (raw images to "test_real", WB images to "wb_real", GC images to "gc_real", HE images to "ce_real")You can extract the file to get
+
+vgg weight https://pan.baidu.com/s/1YeayV3xuwNWjXw6QX1tkew code：8cfn
 
 2.Python main_.py  （Modification has its own file address）
 
