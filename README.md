@@ -4,11 +4,11 @@ This is the code of the implementation of the underwater image enhancement netwo
 
 # Requirement 
 
-Pytorch >= 1.4
-Cuda  8.0, and Matlab
-torchvision >= 1.1.0
-random
-numpy
+ Pytorch >= 1.4
+ Cuda  8.0, and Matlab
+ torchvision >= 1.1.0
+ random
+ numpy
 
 # Usage
 
